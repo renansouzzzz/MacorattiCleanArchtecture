@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MacorattiCleanArchtecture.Application\MacorattiCleanArchtecture.Application.csproj" />
+    <ProjectReference Include="..\MacorattiCleanArchtecture.Data\MacorattiCleanArchtecture.Infra.Data.csproj" />
+    <ProjectReference Include="..\MacorattiCleanArchtecture.Domain\MacorattiCleanArchtecture.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

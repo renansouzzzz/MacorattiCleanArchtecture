@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.Application", "MacorattiCleanArchtecture.Application\MacorattiCleanArchtecture.Application.csproj", "{E2CD52B0-DF3B-4C40-88E0-6F67C4EFE754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.Data", "MacorattiCleanArchtecture.Data\MacorattiCleanArchtecture.Data.csproj", "{32D77647-B915-4F55-9C91-CA3BDBC2B81F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.Infra.Data", "MacorattiCleanArchtecture.Data\MacorattiCleanArchtecture.Infra.Data.csproj", "{32D77647-B915-4F55-9C91-CA3BDBC2B81F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.IoC", "MacorattiCleanArchtecture.IoC\MacorattiCleanArchtecture.IoC.csproj", "{8E8B1E11-EC60-4127-AB09-C83EBEBF764E}"
 EndProject
