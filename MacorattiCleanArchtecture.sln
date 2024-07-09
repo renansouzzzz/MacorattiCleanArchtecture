@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.Infra.Data", "MacorattiCleanArchtecture.Data\MacorattiCleanArchtecture.Infra.Data.csproj", "{32D77647-B915-4F55-9C91-CA3BDBC2B81F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.IoC", "MacorattiCleanArchtecture.IoC\MacorattiCleanArchtecture.IoC.csproj", "{8E8B1E11-EC60-4127-AB09-C83EBEBF764E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.Infra.IoC", "MacorattiCleanArchtecture.IoC\MacorattiCleanArchtecture.Infra.IoC.csproj", "{8E8B1E11-EC60-4127-AB09-C83EBEBF764E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.Domain", "MacorattiCleanArchtecture.Domain\MacorattiCleanArchtecture.Domain.csproj", "{F74761A4-16F6-416C-8172-91A8C0454AE2}"
 EndProject

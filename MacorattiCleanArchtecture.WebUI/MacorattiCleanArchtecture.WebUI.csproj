@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MacorattiCleanArchtecture.IoC\MacorattiCleanArchtecture.IoC.csproj" />
+    <ProjectReference Include="..\MacorattiCleanArchtecture.IoC\MacorattiCleanArchtecture.Infra.IoC.csproj" />
   </ItemGroup>
 
 </Project>
