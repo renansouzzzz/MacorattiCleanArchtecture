@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.Application", "MacorattiCleanArchtecture.Application\MacorattiCleanArchtecture.Application.csproj", "{E2CD52B0-DF3B-4C40-88E0-6F67C4EFE754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MacorattiCleanArchtecture.Application", "MacorattiCleanArchtecture.Application\MacorattiCleanArchtecture.Application.csproj", "{E2CD52B0-DF3B-4C40-88E0-6F67C4EFE754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.Infra.Data", "MacorattiCleanArchtecture.Data\MacorattiCleanArchtecture.Infra.Data.csproj", "{32D77647-B915-4F55-9C91-CA3BDBC2B81F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MacorattiCleanArchtecture.Infra.Data", "MacorattiCleanArchtecture.Data\MacorattiCleanArchtecture.Infra.Data.csproj", "{32D77647-B915-4F55-9C91-CA3BDBC2B81F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.Infra.IoC", "MacorattiCleanArchtecture.IoC\MacorattiCleanArchtecture.Infra.IoC.csproj", "{8E8B1E11-EC60-4127-AB09-C83EBEBF764E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MacorattiCleanArchtecture.Infra.IoC", "MacorattiCleanArchtecture.IoC\MacorattiCleanArchtecture.Infra.IoC.csproj", "{8E8B1E11-EC60-4127-AB09-C83EBEBF764E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.Domain", "MacorattiCleanArchtecture.Domain\MacorattiCleanArchtecture.Domain.csproj", "{F74761A4-16F6-416C-8172-91A8C0454AE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MacorattiCleanArchtecture.Domain", "MacorattiCleanArchtecture.Domain\MacorattiCleanArchtecture.Domain.csproj", "{F74761A4-16F6-416C-8172-91A8C0454AE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.WebUI", "MacorattiCleanArchtecture.WebUI\MacorattiCleanArchtecture.WebUI.csproj", "{D8317249-5958-4495-B6C6-BA479136F28C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MacorattiCleanArchtecture.WebUI", "MacorattiCleanArchtecture.WebUI\MacorattiCleanArchtecture.WebUI.csproj", "{D8317249-5958-4495-B6C6-BA479136F28C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacorattiCleanArchtecture.Domain.Tests", "MacorattiCleanArchtecture.Domain.Tests\MacorattiCleanArchtecture.Domain.Tests.csproj", "{3E2194A5-B472-4B5F-8BDA-E365FEE2A15B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D8317249-5958-4495-B6C6-BA479136F28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8317249-5958-4495-B6C6-BA479136F28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8317249-5958-4495-B6C6-BA479136F28C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2194A5-B472-4B5F-8BDA-E365FEE2A15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2194A5-B472-4B5F-8BDA-E365FEE2A15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2194A5-B472-4B5F-8BDA-E365FEE2A15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2194A5-B472-4B5F-8BDA-E365FEE2A15B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

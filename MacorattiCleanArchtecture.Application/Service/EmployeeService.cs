@@ -1,25 +1,26 @@
-﻿using MacorattiCleanArchtecture.Domain.Interfaces;
+﻿using MacorattiCleanArchtecture.Domain.Entities.Employee;
+using MacorattiCleanArchtecture.Domain.Interfaces.Service;
 
 namespace MacorattiCleanArchtecture.Application.Service
 {
     public class EmployeeService : IEmployeeService
     {
-        public void Delete()
+        public Task<bool> DeleteAsync()
         {
             throw new NotImplementedException();
         }
 
-        public void Insert()
+        public Task<Employee> InsertAsync()
         {
             throw new NotImplementedException();
         }
 
-        public void Select()
+        public Task<IEnumerable<Employee>> SelectAllAsync()
         {
             throw new NotImplementedException();
         }
 
-        public void Update()
+        public Task<Employee> UpdateAsync()
         {
             throw new NotImplementedException();
         }

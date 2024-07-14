@@ -1,4 +1,4 @@
-﻿namespace MacorattiCleanArchtecture.Domain.Entities
+﻿namespace MacorattiCleanArchtecture.Domain.Entities.Company
 {
     public sealed class Company : EntityAbstract
     {

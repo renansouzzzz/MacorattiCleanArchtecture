@@ -1,8 +1,8 @@
-﻿namespace MacorattiCleanArchtecture.Domain.Entities
+﻿namespace MacorattiCleanArchtecture.Domain.Entities.Employee
 {
     public sealed class Employee : EntityAbstract
     {
-        public string Name {  get; private set; }
+        public string Name { get; private set; }
 
         public string Phone { get; private set; }
 
