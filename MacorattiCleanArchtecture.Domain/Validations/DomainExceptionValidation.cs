@@ -2,10 +2,10 @@
 {
     public class DomainExceptionValidation
     {
-        public bool ValueNull(ICollection<dynamic> atributes)
+        public bool ValueNull(object atributes)
         {
-            foreach (dynamic item in atributes)
-                if (item is null)
+            foreach (var item in atributes.GetType().GetProperties())
+                if (item.GetValue(atributes) is null)
                     return true;
 
             return false;
