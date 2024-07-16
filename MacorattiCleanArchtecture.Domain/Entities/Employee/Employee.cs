@@ -1,4 +1,6 @@
-﻿namespace MacorattiCleanArchtecture.Domain.Entities.Employee
+﻿using CompanyModel = MacorattiCleanArchtecture.Domain.Entities.Company.Company;
+
+namespace MacorattiCleanArchtecture.Domain.Entities.Employee
 {
     public sealed class Employee : EntityAbstract
     {
@@ -10,13 +12,19 @@
 
         public string CPF { get; private set; }
 
+        public Guid CompanyId { get; set; }
 
-        public Employee(string name, string phone, string jobRole, string cpf)
+        public CompanyModel Company { get; set; }
+
+
+        public Employee(Guid companyId, string name, string phone, string jobRole, string cpf, CompanyModel company)
         {
+            CompanyId = companyId;
             Name = name;
             Phone = phone;
             JobRole = jobRole;
             CPF = cpf;
+            Company = company;
         }
     }
 }
