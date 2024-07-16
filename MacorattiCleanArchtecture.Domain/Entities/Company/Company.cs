@@ -6,19 +6,18 @@ namespace MacorattiCleanArchtecture.Domain.Entities.Company
     {
         public string Name { get; private set; }
 
-        public string CNPJ { get; private set; }
+        public string Cnpj { get; private set; }
 
         public string Address { get; private set; }
 
-        public EmployeeModel Employee { get; set; }
+        public EmployeeModel Employee { get; set; } = null!;
 
 
-        public Company(string name, string cnpj, string address, EmployeeModel employee, Guid employeeId)
+        public Company(string name, string cnpj, string address)
         {
             Name = name;
-            CNPJ = cnpj;
+            Cnpj = cnpj;
             Address = address;
-            Employee = employee;
         }
     }
 }
