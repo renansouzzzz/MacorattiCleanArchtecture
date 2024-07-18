@@ -1,4 +1,8 @@
-﻿using MacorattiCleanArchtecture.Application.Mappings;
+﻿using MacorattiCleanArchtecture.Application.Interfaces.Company;
+using MacorattiCleanArchtecture.Application.Interfaces.Employee;
+using MacorattiCleanArchtecture.Application.Mappings;
+using MacorattiCleanArchtecture.Application.Service.Company;
+using MacorattiCleanArchtecture.Application.Service.Employee;
 using MacorattiCleanArchtecture.Domain.Interfaces.Service;
 using MacorattiCleanArchtecture.Infra.Data.Context;
 using MacorattiCleanArchtecture.Infra.Data.Repositories;
@@ -21,7 +25,10 @@ namespace MacorattiCleanArchtecture.Infra.IoC.ConfigureServices
             );
 
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
-            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<ICompanyRepository, CompanyRepository>();
+
+            services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddScoped<ICompanyService, CompanyService>();
 
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
