@@ -1,4 +1,5 @@
-﻿using MacorattiCleanArchtecture.Domain.Interfaces.Service;
+﻿using MacorattiCleanArchtecture.Application.Mappings;
+using MacorattiCleanArchtecture.Domain.Interfaces.Service;
 using MacorattiCleanArchtecture.Infra.Data.Context;
 using MacorattiCleanArchtecture.Infra.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +22,8 @@ namespace MacorattiCleanArchtecture.Infra.IoC.ConfigureServices
 
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+
+            services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             return services;
         }
