@@ -1,0 +1,34 @@
+﻿@using MacorattiCleanArchtecture.Domain.Entities.Employee
+@model IEnumerable<MacorattiCleanArchtecture.Application.DTOs.EmployeeDTO>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lista de Employees</title>
+</head>
+<body>
+    <h1>Lista de Employees</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Job Role</th>
+                <th>CPF</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Model)
+            {
+                <tr>
+                    <td>@employee.Name</td>
+                    <td>@employee.Phone</td>
+                    <td>@employee.JobRole</td>
+                    <td>@employee.Cpf</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

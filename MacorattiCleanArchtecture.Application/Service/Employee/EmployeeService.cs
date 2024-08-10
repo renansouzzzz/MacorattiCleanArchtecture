@@ -20,7 +20,8 @@ namespace MacorattiCleanArchtecture.Application.Service.Employee
 
         public async Task<IEnumerable<EmployeeDTO>> SelectAllAsync()
         {
-            return _mapper.Map<IEnumerable<EmployeeDTO>>(await _repository.SelectAllAsync());
+            var teste = await _repository.SelectAllAsync();
+            return _mapper.Map<IEnumerable<EmployeeDTO>>(teste);
         }
 
         public async Task<EmployeeDTO> InsertAsync(EmployeeDTO employee)

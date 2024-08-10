@@ -19,6 +19,16 @@ namespace MacorattiCleanArchtecture.Application.DTOs
         [ValidCPF(ErrorMessage = "CPF invalid.")]
         public string Cpf { get; set; } = null!;
 
-        public Guid CompanyId { get; set; }
+        //public string Name { get; private set; }
+
+        //public string Phone { get; private set; }
+
+        //public string JobRole { get; private set; }
+
+        //public string Cpf { get; private set; }
+
+        //public Guid CompanyId { get; set; }
+
+        //public CompanyModel Company { get; set; }
     }
 }

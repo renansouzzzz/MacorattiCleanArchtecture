@@ -2,9 +2,9 @@ using MacorattiCleanArchtecture.Infra.IoC.ConfigureServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews();
-
 builder.Services.AddInfrastructure(builder.Configuration);
+
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
@@ -23,6 +23,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Employee}/{action=Index}/{id?}");
 
 app.Run();
+
