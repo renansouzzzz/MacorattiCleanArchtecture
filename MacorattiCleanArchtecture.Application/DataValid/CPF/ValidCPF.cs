@@ -13,7 +13,7 @@ public class ValidCPF : ValidationAttribute
     }
 
     /// <summary>
-    /// Informar um CPF completo para validação do digito verificador
+    /// Informar um CPF completo para validação dos digitos verificador
     /// </summary>
     /// <param name="cpf">string com o numero CPF completo com Digito</param>
     /// <returns>Boolean True/False onde True=Digito CPF Valido</returns>
